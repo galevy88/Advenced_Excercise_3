@@ -23,7 +23,7 @@ std::string normalize_csv_input(std::string csv) {
   if (csv == "iris/iris_classified.csv") { s = "iris_classified.csv"; return s;}
   if (csv == "wine/wine_classified.csv") { s = "wine_classified.csv"; return s;}
   if (csv == "beans/beans_classified.csv") { s = "beans_classified.csv"; return s;}
-  return ""
+  return s;
 }
 
 
